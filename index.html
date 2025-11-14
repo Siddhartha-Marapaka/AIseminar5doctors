@@ -13,7 +13,11 @@
   <body>
     <header>
       <div class="nav">
-        <img src="/images/piyush-akademy.png" class="logo" alt="Piyush Academy Logo" />
+        <img
+          src="/images/piyush-akademy.png"
+          class="logo"
+          alt="Piyush Academy Logo"
+        />
 
         <div class="nav-text">
           <h2>Piyush Academy</h2>
@@ -37,7 +41,7 @@
         </div>
 
         <div class="hero-img">
-          <img src="/images/mern-img.png" alt="MERN Illustration" />
+          <img src="images/mern-img.png" alt="MERN Illustration" />
         </div>
       </section>
 
@@ -129,7 +133,7 @@
       <h2 class="section-title">Certificate of Completion</h2>
       <div class="certificate-box">
         <img
-          src="/images/certificate.png"
+          src="images/certificate.png"
           alt="Certificate Sample"
           class="certificate-img"
         />
@@ -147,36 +151,43 @@
       </div>
 
       <!-- PROJECTS -->
-      <h2 class="section-title">Projects We Will Build</h2>
+<h2 class="section-title">Projects We Will Build</h2>
 
-      <div class="projects-box">
-        <ul class="projects-list">
-          <li>
-            <img src="/images/portfolio.png" class="project-thumb  fix-Portfolio" />
-            <span>✔ Personal Portfolio Website</span>
-          </li>
+<div class="projects-box">
+  <ul class="projects-list">
 
-          <li>
-            <img src="/images/whether.png" class="project-thumb  fix-whether" />
-            <span>✔ Weather App using APIs</span>
-          </li>
+    <!-- PORTFOLIO WEBSITE -->
+    <li>
+      <img src="images/portfolio.png" class="project-thumb fix-card img-portfolio" />
+      <span>✔ Personal Portfolio Website</span>
+    </li>
 
-          <li>
-            <img src="/images/authentication.png" class="project-thumb  fix-auth" />
-            <span>✔ Authentication System (JWT + Cookies)</span>
-          </li>
+    <!-- WEATHER APP -->
+    <li>
+      <img src="images/whether1.png" class="project-thumb fix-card img-weather" />
+      <span>✔ Weather App using APIs</span>
+    </li>
 
-          <li>
-            <img src="/images/mern-stack.png" class="project-thumb  fix-mern" />
-            <span>✔ Full MERN E-Commerce Website</span>
-          </li>
+    <!-- AUTH SYSTEM -->
+    <li>
+      <img src="images/auth.png" class="project-thumb fix-card img-auth" />
+      <span>✔ Authentication System (JWT + Cookies)</span>
+    </li>
 
-          <li>
-            <img src="/images/social-media.png" class="project-thumb  fix-social" />
-            <span>✔ Social Media Mini-App</span>
-          </li>
-        </ul>
-      </div>
+    <!-- MERN E-COMMERCE -->
+    <li>
+      <img src="images/mern-stack.png" class="project-thumb fix-card img-mern" />
+      <span>✔ Full MERN E-Commerce Website</span>
+    </li>
+
+    <!-- SOCIAL MEDIA MINI APP -->
+    <li>
+      <img src="images/mini.png" class="project-thumb fix-card img-mini" />
+      <span>✔ Social Media Mini-App</span>
+    </li>
+
+  </ul>
+</div>
 
       <!-- MOTIVATION -->
       <h2 class="section-title">Start Your Development Journey Today</h2>
@@ -229,9 +240,9 @@
 
       <div class="info-box" id="payment">
         <!-- USER CLICKS THIS -->
-        <button class="open-payment-btn" id="show-razorpay">
+        <!-- <button class="open-payment-btn" id="show-razorpay">
           Register Now
-        </button>
+        </button> -->
 
         <!-- HIDDEN RAZORPAY BUTTON -->
         <div id="razorpay-box" class="hidden-box">
@@ -245,8 +256,8 @@
         </div>
       </div>
     </div>
-    <!-- close container -->
-    
+    <!-- closes container -->
+
     <script>
       const btn = document.getElementById("show-razorpay");
       const box = document.getElementById("razorpay-box");
