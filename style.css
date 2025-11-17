@@ -63,7 +63,7 @@ details summary {
 header {
   background: #111;
   color: #00e5ff;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   border-bottom: 2px solid #00e5ff;
 }
