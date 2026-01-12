@@ -402,3 +402,31 @@ footer p {
     margin: 0 auto 12px !important;
   }
 }
+
+
+
+/* ===== FORCE ALL TEXT TO BLUE ===== */
+body,
+p,
+span,
+li,
+a,
+div,
+section,
+strong,
+summary,
+details,
+footer p {
+  color: #0b5ed7 !important;
+}
+
+/* Headings already blue, but enforce */
+h1, h2, h3, h4 {
+  color: #0b5ed7 !important;
+}
+
+/* Buttons text */
+.hero-btn,
+button {
+  color: #ffffff !important; /* keep buttons readable */
+}
